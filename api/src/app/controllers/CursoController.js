@@ -89,7 +89,7 @@ class CursoController {
       });
 
       res.status(200).send({
-        mensagem: 'Curso deletado do sistema com sucesso.'
+        mensagem: `Curso(s) atribuído(s) ao aluno ${id_aluno} com sucesso`
       });
     } catch (err) {
       next(err);
